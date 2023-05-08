@@ -11,9 +11,9 @@ function getItem(label, key, icon, children, type) {
 }
 
 const items = [
-  getItem(<Link to='/layout/home'>数据概览</Link>, '/layout/home', <HomeOutlined />),
-  getItem(<Link to='/layout/article'>用户管理</Link>, '/layout/article', <DiffOutlined />),
-  getItem(<Link to='/layout/publish'>链码管理</Link>, '/layout/publish', <EditOutlined />),
+  getItem(<Link to='/layout/home'>基本功能</Link>, '/layout/home', <HomeOutlined />),
+  getItem(<Link to='/layout/article'>网络状态</Link>, '/layout/article', <DiffOutlined />),
+  getItem(<Link to='/layout/publish'>智能合约</Link>, '/layout/publish', <EditOutlined />),
 
 ];
 

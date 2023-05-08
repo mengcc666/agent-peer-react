@@ -5,7 +5,7 @@ import routes from "./router";
 const App = () => {
   const element = useRoutes(routes)
   return (
-    <div>
+    <div class="showArea">
       {element} {/*展示区*/}
     </div>
   );
